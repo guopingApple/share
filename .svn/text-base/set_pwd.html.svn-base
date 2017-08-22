@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mobilebone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="page invite_bg" id="set_pwd"  data-title = "设置密码">
+			<div class="pwd_box border-radius8">
+				<div class="pwd_form">
+					<ul style="margin-top: 0;">
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="password" placeholder="请输入密码"></div>
+						</li>
+					</ul>
+				</div>
+				<p class="pwd_tip"><span class="color_red_tip">*</span>密码必须为6-22位的数字或字母！</p>
+				<a href="invite_succ.html" class="d_block txt_c border-radius8 dispBox hvCenter btn_ok">确定</a>
+			</div>
+		</div>
+		<script src="js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

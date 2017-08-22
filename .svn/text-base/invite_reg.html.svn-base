@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mobilebone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="page invite_bg" id="inviteHome" data-title = "邀请注册">
+			<div class="bg_hb">
+				<div class="inviter">
+					<dl class="dispBox">
+						<dt><img src="img/icon_user.png" width="100%" class="icon_user"></dt>
+						<dd class="box-flex1 white">1380****000<br>海量品牌任务，轻松赚钱！</dd>
+					</dl>
+				</div>
+				<div class="circle_hb txt_c"><img src="img/hb_circle.png" width="41%"></div>
+				<div class="btn_lq txt_c"><a href="invite_reg_next.html"><img src="img/btn_lq.png" width="76%"></a></div>
+				<div class="txt_lq txt_c"><img src="img/txt_lq.png" width="58%"></div>
+			</div>
+		</div>
+		<script src="js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mobilebone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="page invite_bg" id="invite_succ" data-title = "邀请成功">
+			<div class="invite_succ txt_c">
+				<div class="succ_txt color_yellow">
+					<h3>13826598653</h3>
+					<h4 class="f14">已成功注册分享APP</h4>
+				</div>
+				<img src="img/hb_succ.png" width="100%"/>
+				<img src="img/btn_download.png" width="95%" class="mt10"/>
+			</div>
+		</div>
+		<script src="js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

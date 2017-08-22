@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mobilebone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="page page_merchant_lq" data-title="Master达人兴趣课程全免单体验">
+			<section class="merchant">
+				<div class="merchant_name dispBox vCenter f14 border-box">
+					<img src="img/mer_icon.png" width="12%" class="mer_icon mr10"/>
+					野生蜂蜜有限公司
+				</div>
+				<div class="merchant_con dispBox vCenter f20 bold white">
+					Master达人兴趣课程全免单体验 Master达人兴趣课程全免单体验
+				</div>
+				<div class="merchant_date f13 dispBox hvCenter">有效期：2016-06-01至2016-06-30</div>
+			</section>
+			<div class="reg_box">
+				<div class="reg_form">
+					<ul>
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="text" placeholder="请输入您的手机号"></div>
+						</li>
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="text" placeholder="请输入图片验证码"></div>
+							<div class="img_yz dispBox hvCenter"><img src="img/img_yz.png"><a href="javascript:void(0);" class="color_blue d_block underline f14">刷新</a></div>
+						</li>
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="text" placeholder="请输入短信验证码"></div>
+							<div class="msg_yz dispBox hvCenter"><a href="javascript:void(0);" class="btn_yz txt_c border-radius6 dispBox hvCenter">获取验证码</a></div>
+						</li>
+					</ul>
+				</div>
+				<div class="yzm_tip f13 dispBox vCenter border-radius10">
+					没有收到验证码？   <a href="javascript:void(0);" class="click_get f13 white border-radius3 d_block p0_5 m0_5">点击获取</a>语音验证码！
+				</div>
+				<a href="javascript:void(0)" class="d_block txt_c border-radius8 dispBox hvCenter btn_next" id="lq_sure">确认领取</a>
+			</div>
+		</div>
+		<script src="js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

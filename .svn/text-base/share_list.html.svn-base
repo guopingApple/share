@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>享传-列表</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body class="bg_eee article_details">
+		<header class="lineBottom">
+			<div class="title">享传</div>
+			<!--<div class="goBack"><b></b></div>-->
+		</header>
+		<ul class="lineList p10 bgWhite" style="margin-top: 50px">
+			<li class="dispBox p10_0">
+				<div class="mr10 list_img"><img src="img/list_img.png"></div>
+				<div class="box-flex1 f14 bold">
+					<img src="img/icon_wen.png" width="14" class="mr5" style="margin-top: 2px;">父亲节，只把幸福送给他只把幸福送给他！
+				</div>
+			</li>
+			<li class="dispBox p10_0">
+				<div class="mr10 list_img"><img src="img/list_img.png"></div>
+				<div class="box-flex1 f14 bold">
+					<img src="img/icon_wen.png" width="14" class="mr5" style="margin-top: 2px;">父亲节，只把幸福送给他只把幸福送给他！
+				</div>
+			</li>
+			<li class="dispBox p10_0">
+				<div class="mr10 list_img"><img src="img/list_img.png"></div>
+				<div class="box-flex1 f14 bold">
+					<img src="img/icon_wen.png" width="14" class="mr5" style="margin-top: 2px;">父亲节，只把幸福送给他只把幸福送给他！
+				</div>
+			</li>
+			<li class="dispBox p10_0">
+				<div class="mr10 list_img"><img src="img/list_img.png"></div>
+				<div class="box-flex1 f14 bold">
+					<img src="img/icon_wen.png" width="14" class="mr5" style="margin-top: 2px;">父亲节，只把幸福送给他只把幸福送给他！
+				</div>
+			</li>
+			<li class="dispBox p10_0">
+				<div class="mr10 list_img"><img src="img/list_img.png"></div>
+				<div class="box-flex1 f14 bold">
+					<img src="img/icon_wen.png" width="14" class="mr5" style="margin-top: 2px;">父亲节，只把幸福送给他只把幸福送给他！
+				</div>
+			</li>
+			<li class="dispBox p10_0">
+				<div class="mr10 list_img"><img src="img/list_img.png"></div>
+				<div class="box-flex1 f14 bold">
+					<img src="img/icon_wen.png" width="14" class="mr5" style="margin-top: 2px;">父亲节，只把幸福送给他只把幸福送给他！
+				</div>
+			</li>
+		</ul>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				var w_w = $(window).width();
+				$('.list_img').width(w_w * 0.347);
+				$('.list_img').height( w_w * 0.347 * 0.577 );
+			}
+		</script>
+	</body>
+</html>

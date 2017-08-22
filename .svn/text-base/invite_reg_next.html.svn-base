@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mobilebone.css"/>
+		<link rel="stylesheet" type="text/css" href="css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="page invite_bg" id="inviteReg"  data-title = "邀请注册">
+			<div class="reg_box border-radius8">
+				<div class="reg_box_top txt_c">
+					<img src="img/icon_user.png" width="23%" class="icon_user reg_box_user">
+					<img src="img/bg_box_top.png" width="85%">
+					<div class="reg_box_top_tit white lineh_25 bold">
+						<p class="f13">我已经使用分享APP 23 天，</p>
+						<p class="f15">送你<span class="color_yellow f30">2</span>元，一起来玩吧！</p>
+					</div>
+				</div>
+				<div class="reg_form">
+					<ul>
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="text" placeholder="请输入您的手机号"></div>
+						</li>
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="text" placeholder="请输入图片验证码"></div>
+							<div class="img_yz dispBox hvCenter"><img src="img/img_yz.png"><a href="javascript:void(0);" class="color_blue d_block underline f14">刷新</a></div>
+						</li>
+						<li class="lineBottom dispBox">
+							<div class="box-flex1"><input type="text" placeholder="请输入短信验证码"></div>
+							<div class="msg_yz dispBox hvCenter"><a href="javascript:void(0);" class="btn_yz txt_c border-radius6 dispBox hvCenter">获取验证码</a></div>
+						</li>
+					</ul>
+				</div>
+				<a href="set_pwd.html" class="d_block txt_c border-radius8 dispBox hvCenter btn_next">下一步</a>
+				<div class="rule txt_c">点击上面的“下一步”按钮，即表示你阅读并同意<a href="rules.html" class="color_red d_block">《XXX服务协议》</a></div>
+			</div>
+		</div>
+		<script src="js/mobilebone.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
